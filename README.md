@@ -18,12 +18,19 @@ Si vous envisagez de -> Appliquez le pattern :
 
 • Adapter l’interface d’une classe pour qu’elle corresponde à l’inter-
 face attendue par un client -> ADAPTER
+exemple : 
 
 • Fournir une interface simple pour un ensemble de classes -> FACADE
+exemple : 
 
 • Définir une interface qui s’applique à la fois à des objets individuels
 et à des groupes d’objets -> COMPOSITE
+exemple : 
+
 
 • Découpler une abstraction de son implémentation de sorte que les
 deux puissent varier indépendamment -> BRIDGE
+exemple : drivers JDBC
+
+
 
