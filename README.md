@@ -16,46 +16,70 @@ Extensions : DECORATOR, ITERATOR, VISITOR
 
 Si vous envisagez de -> Appliquez le pattern : 
 
-• Adapter l’interface d’une classe pour qu’elle corresponde à l’inter-
-face attendue par un client -> ADAPTER
+• ADAPTER : Adapter l’interface d’une classe pour qu’elle corresponde à l’inter-
+face attendue par un client. 
+fait en dérivant la classe ou implémentant une interface.
+
+exemple : JTable dans Swing
+
+• FACADE : Fournir une interface simple pour un ensemble de classes. Simplification d'un sous sytème. A ne pas confondre avec une démo.
 
 exemple : 
 
-• Fournir une interface simple pour un ensemble de classes -> FACADE
-
-exemple : 
-
-• Définir une interface qui s’applique à la fois à des objets individuels
-et à des groupes d’objets -> COMPOSITE
+• COMPOSITE : Définir une interface qui s’applique à la fois à des objets individuels
+et à des groupes d’objets(faut faire gaffe au cyles)
 
 exemple : 
 
 
-• Découpler une abstraction de son implémentation de sorte que les
-deux puissent varier indépendamment -> BRIDGE
+• BRIDGE ou Driver : Découpler une abstraction de son implémentation de sorte que les
+deux puissent varier indépendamment
 
 exemple : drivers JDBC
 
-• Centraliser la responsabilité au niveau d’une instance de classe -> 
-SINGLETON
+• SINGLETON : Centraliser la responsabilité au niveau d’une instance de classe. 
+Différence avec une classe statique : singleton : gestion état / junit / lazy load. Static : perf
 
-• Libérer un objet de la "conscience" de connaître les objets qui en
-dépendent ->
-OBSERVER
 
-• Centraliser la responsabilité au niveau d’une classe qui supervise la
-façon dont les objets interagissent ->
-MEDIATOR
+• OBSERVER Libérer un objet de la "conscience" de connaître les objets qui en
+dépendent. Dépendance 1,n entre un objet et ses observeurs quand l'objet change d'état. 
 
-• Laisser un objet agir au nom d’un autre objet ->
- PROXY
+exemple : interface utilisateur
+
+
+• MEDIATOR : Centraliser la responsabilité au niveau d’une classe qui supervise la
+façon dont les objets interagissent. permet de faire des relations entre objet (type BDD) sans que les objets ait a se reférencer les uns les autres. (bijection, l'injection est facile a faire en java, mais le retour est a prendre en charge dans un médiator). 
+
+
+• PROXY : Laisser un objet agir au nom d’un autre objet. 
  
-• Autoriser une requête à être transmise le long d’une chaîne d’objets
-jusqu’à celui qui la traitera ->
-CHAIN OF RESPONSABILITY
+ 
+• CHAIN OF RESPONSABILITY : Autoriser une requête à être transmise le long d’une chaîne d’objets
+jusqu’à celui qui la traitera 
 
-• Centraliser la responsabilité au niveau d’objets partagés de forte
-granularité ->
-FLYWEIGHT
+
+• FLYWEIGHT : Centraliser la responsabilité au niveau d’objets partagés de forte
+granularité. en partageant la partie immuable de l'objet. 
+
+• BUILDER : construction des objets pas à pas. (en dehosr de la classe a instancier). Permet par exemple de le faire à la suite des la reception des inputs d'un utilisateurs. Permet de garantir la validité d'un objet avant de l'instancier.
+
+• FACTORY : L’objectif du pattern FACTORY METHOD est de laisser un autre développeur définir
+l’interface permettant de créer un objet, tout en gardant un contrôle sur le
+choix de la classe à instancier.
+exemple : iterator
+
+• ABSTRACT FACTORY : L’objectif du pattern ABSTRACT FACTORY, ou KIT, est de permettre la création
+de familles d’objets ayant un lien ou interdépendants.
+
+
+• PROTOTYPE : fourniture d'objet par copie sur un exemple. typique pour les objet lent a créer
+
+• MEMENTO : 
+
+• 
+
+• 
+
+• 
 
 
