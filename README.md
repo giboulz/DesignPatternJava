@@ -56,7 +56,7 @@ façon dont les objets interagissent. permet de faire des relations entre objet 
  
 • CHAIN OF RESPONSABILITY : Autoriser une requête à être transmise le long d’une chaîne d’objets
 jusqu’à celui qui la traitera 
-
+ exemple : logger (niveau error / info ...)
 
 • FLYWEIGHT : Centraliser la responsabilité au niveau d’objets partagés de forte
 granularité. en partageant la partie immuable de l'objet. 
@@ -74,12 +74,30 @@ de familles d’objets ayant un lien ou interdépendants.
 
 • PROTOTYPE : fourniture d'objet par copie sur un exemple. typique pour les objet lent a créer
 
-• MEMENTO : 
+• MEMENTO : stockage et la restauration d'un état d'un objet.
 
+
+OPERATION
+
+• TEMPLATE MEHOD : implémentation d'un algo dans une méthode, en laissant à d'autres classe le soin de définir certaines étapes de l'algo. 
+exemple : comparator
+
+• STATE : comportement différent selon les état d'un objet
+ia dans zhovort.
+
+• STRATEGY : encapsulation des approches (ou stratgies) alternatives dans des classes distinctes qui implémentent chacune une opération communes (proche du template méthod). 
+
+
+• COMMAND : encapsulation d'une requete dans un objet.
+
+• INTERPRETER
+
+extensions : 
+
+• DECORATOR : permet de définir dynamiquement le comportement de certains objets.
+• ITERATOR : accès aux éléments d'une collection de manière sequentiel.
+• VISITOR : 
 • 
-
-• 
-
 • 
 
 
