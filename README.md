@@ -2,6 +2,7 @@
 Patron de conception en java
 
 23 design pattern : 
+
 Interfaces : ADAPTER, FACADE, COMPOSITE, BRIDGE
 
 Responsabilité : SINGLETON, OBSERVER, MEDIATOR, PROXY, CHAIN OF RESPONSIBILITY,
