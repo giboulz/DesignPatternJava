@@ -96,9 +96,10 @@ ia dans zhovort.
 extensions : 
 
 • DECORATOR : permet de définir dynamiquement le comportement de certains objets.
+
 • ITERATOR : accès aux éléments d'une collection de manière sequentiel.
-• VISITOR : 
-• 
-• 
+
+• VISITOR : L’objectif du pattern VISITOR est de vous permettre de définir une nouvelle
+opération pour une hiérarchie sans changer ses classes.
 
 
